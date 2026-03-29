@@ -92,18 +92,6 @@
         },
         {
           "rank": 8,
-          "name": "GPT-5.2 + Claude Code",
-          "org": "OpenAI",
-          "params": "-",
-          "date": "2026-03-29",
-          "url": "https://openai.com",
-          "l1": {"desktop": 39.2, "tablet": 34.1, "mobile": 34.2, "avg": 35.8},
-          "l2": {"vs": 21.7, "fs": 53.3, "avg": 37.5},
-          "l3": {"vs": 0.9, "fs": 0.8, "avg": 0.8},
-          "overall": 24.7
-        },
-        {
-          "rank": 9,
           "name": "Doubao-Seed-2.0-Pro + Claude Code",
           "org": "ByteDance",
           "params": "-",
@@ -115,7 +103,7 @@
           "overall": 21.5
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "Qwen3.5-397B-A17B-Thinking + Claude Code",
           "org": "Alibaba",
           "params": "397B",
