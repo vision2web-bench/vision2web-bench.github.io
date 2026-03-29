@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VisionWebDev - A Hierarchical Benchmark for Visual Website Development</title>
+    <title>Vision2Web - A Hierarchical Benchmark for Visual Website Development</title>
 
-    <link rel="icon" href="./static/images/visionwebdev.png">
+    <link rel="icon" href="./static/images/vision2web.png">
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro|Inter:wght@400;500;600;700" rel="stylesheet">
     <link rel="stylesheet" href="./static/css/bulma.min.css">
     <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
@@ -22,7 +22,7 @@
     <script src="./static/js/bulma-slider.min.js"></script>
 
     <style>
-        /* ===== VisionWebDev Theme Colors ===== */
+        /* ===== Vision2Web Theme Colors ===== */
         :root {
             --vwd-primary: #6366f1;
             --vwd-primary-dark: #4f46e5;
@@ -598,6 +598,31 @@
             color: var(--vwd-primary);
         }
 
+        /* ===== Season Tab Buttons ===== */
+        .season-tab-btn {
+            padding: 6px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1.5px solid var(--vwd-border);
+            background: white;
+            color: var(--vwd-text-secondary);
+            cursor: pointer;
+            transition: all 0.15s ease;
+            font-family: inherit;
+        }
+
+        .season-tab-btn:hover {
+            border-color: var(--vwd-primary-light);
+            color: var(--vwd-primary);
+        }
+
+        .season-tab-btn.active {
+            background: var(--vwd-primary);
+            color: white;
+            border-color: var(--vwd-primary);
+        }
+
         /* ===== Footer ===== */
         .footer {
             background: #f8f9fa;
@@ -647,8 +672,8 @@
 <nav class="main-nav">
     <div class="nav-container">
         <div class="nav-logo">
-            <img src="static/images/visionwebdev.png" alt="Logo"/>
-            <span class="nav-logo-text">VisionWebDev</span>
+            <img src="static/images/vision2web.png" alt="Logo"/>
+            <span class="nav-logo-text">Vision2Web</span>
         </div>
         
         <div class="nav-tabs">
@@ -667,9 +692,9 @@
                 <span class="icon"><i class="fas fa-database"></i></span>
                 <span>Dataset</span> 
             </a>
-            <a href="https://github.com/VisionWebDev/VisionWebDev" target="_blank" class="nav-btn nav-btn-primary">
+            <a href="https://github.com/Vision2Web/Vision2Web" target="_blank" class="nav-btn nav-btn-primary">
                 <span class="icon"><i class="fab fa-github"></i></span>
-                <span>Run VisionWebDev</span>
+                <span>Run Vision2Web</span>
             </a>
         </div>
     </div>
@@ -683,12 +708,12 @@
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
                         <h1 class="title is-1 publication-title is-bold">
-                            <img src="static/images/visionwebdev.png" style="width:1.2em;vertical-align: middle" alt="Logo"/>
-                            <span class="video-mme" style="vertical-align: middle">&nbsp;VisionWebDev: A Hierarchical Benchmark for Visual Website Development with Agent Verification</span>
+                            <img src="static/images/vision2web.png" style="width:1.2em;vertical-align: middle" alt="Logo"/>
+                            <span class="video-mme" style="vertical-align: middle">&nbsp;Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification</span>
                         </h1>
                         <div class="is-size-5 publication-authors" style="width: 80%; margin: 18px auto 10px auto;">
                             <span class="author-block" style="font-size:22px">
-                                <a href="https://github.com/THUDM">VisionWebDev Team</a>
+                                <a href="https://github.com/THUDM">Vision2Web Team</a>
                             </span>
                         </div>
                     </div>
@@ -701,16 +726,16 @@
         <div class="container">
             <div class="columns is-centered">
                 <div class="column is-four-fifths">
-                    <h2 class="title is-3 has-text-centered">What is VisionWebDev</h2>
+                    <h2 class="title is-3 has-text-centered">What is Vision2Web</h2>
                     <div class="content has-text-justified">
                         <p>
-                            <b>VisionWebDev</b> is a benchmark for evaluating whether multimodal coding agents can build real websites from visual prototypes and structured requirements. It goes beyond small code edits and static UI generation to measure end-to-end web development ability in realistic settings.
+                            <b>Vision2Web</b> is a benchmark for evaluating whether multimodal coding agents can build real websites from visual prototypes and structured requirements. It goes beyond small code edits and static UI generation to measure end-to-end web development ability in realistic settings.
                         </p>
                         <p>
                             Each task provides multimodal inputs such as UI prototype images, requirement descriptions, and development assets. Agents are expected to generate executable websites that satisfy both functional behavior and visual fidelity.
                         </p>
                         <p>
-                            To support reliable evaluation, VisionWebDev introduces an automated verification framework that combines workflow-driven GUI testing with VLM-based visual judging.
+                            To support reliable evaluation, Vision2Web introduces an automated verification framework that combines workflow-driven GUI testing with VLM-based visual judging.
                         </p>
                     </div>
                 </div>
@@ -723,7 +748,7 @@
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
                     <div class="content has-text-centered" style="margin-top: 10px;">
-                        <img src="static/images/visionwebdev_cover.png" style="width: 75%; max-width: 1000px;" alt="VisionWebDev Cover"/>
+                        <img src="static/images/vision2web_cover.png" style="width: 75%; max-width: 1000px;" alt="Vision2Web Cover"/>
                     </div>
                 </div>
             </div>
@@ -734,13 +759,13 @@
         <div class="container">
             <div class="columns is-centered">
                 <div class="column is-four-fifths">
-                    <h2 class="title is-3 has-text-centered">Why VisionWebDev</h2>
+                    <h2 class="title is-3 has-text-centered">Why Vision2Web</h2>
                     <div class="content has-text-justified">
                         <p>
                             Existing coding benchmarks mainly focus on localized code edits, while most multimodal website benchmarks are limited to static webpage reproduction. These settings do not fully capture the complexity of modern web development, where agents must reason over visual layouts, interaction flows, application state, and system behavior across multiple pages.
                         </p>
                         <p>
-                            VisionWebDev closes this gap by evaluating the full spectrum of visual website development, from responsive UI implementation to interactive frontend engineering and complete full-stack applications.
+                            Vision2Web closes this gap by evaluating the full spectrum of visual website development, from responsive UI implementation to interactive frontend engineering and complete full-stack applications.
                         </p>
                     </div>
                 </div>
@@ -781,7 +806,7 @@
                     </div>
                     <div class="content has-text-justified">
                         <p>
-                            VisionWebDev spans 16 subcategories across 4 major domains and covers progressively harder development settings, from static responsive webpages to interaction-heavy frontends and requirement-driven full-stack systems.
+                            Vision2Web spans 16 subcategories across 4 major domains and covers progressively harder development settings, from static responsive webpages to interaction-heavy frontends and requirement-driven full-stack systems.
                         </p>
                     </div>
                 </div>
@@ -796,7 +821,7 @@
     <div class="breadcrumb-nav">
         <div class="breadcrumb-container">
             <h1 class="breadcrumb-title">
-                <span class="breadcrumb-prefix">VisionWebDev</span> Leaderboard
+                <span class="breadcrumb-prefix">Vision2Web</span> Leaderboard
             </h1>
             <p class="breadcrumb-subtitle">Comprehensive evaluation results across all task levels and model configurations</p>
         </div>
@@ -805,6 +830,25 @@
     <section class="section">
         <div class="container">
             <div class="leaderboard-section">
+                <!-- Season Selector -->
+                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap;">
+                    <span style="font-weight: 600; color: var(--vwd-text-primary); font-size: 14px;">Season:</span>
+                    <div id="season-tabs" style="display: flex; gap: 6px; flex-wrap: wrap;"></div>
+                </div>
+
+                <!-- Evaluation Info Banner -->
+                <div id="eval-info-banner" style="display: flex; gap: 20px; align-items: center; padding: 12px 18px; background: var(--vwd-gradient-subtle); border-radius: 8px; border: 1px solid rgba(99, 102, 241, 0.12); margin-bottom: 20px; flex-wrap: wrap; font-size: 14px;">
+                    <span style="color: var(--vwd-text-secondary);">
+                        <strong style="color: var(--vwd-text-primary);">Period:</strong> <span id="eval-period"></span>
+                    </span>
+                    <span style="color: var(--vwd-text-secondary);">
+                        <strong style="color: var(--vwd-text-primary);">VLM Judge:</strong> <span id="eval-vlm-judge"></span>
+                    </span>
+                    <span style="color: var(--vwd-text-secondary);">
+                        <strong style="color: var(--vwd-text-primary);">GUI Agent:</strong> <span id="eval-gui-agent"></span>
+                    </span>
+                </div>
+
                 <div class="leaderboard-header">
                     <div></div>
                     <div class="last-updated">
@@ -812,7 +856,7 @@
                     </div>
                 </div>
 
-                <div style="overflow-x: auto;">
+                <div id="leaderboard-table-wrapper" style="overflow-x: auto;">
                     <table id="results">
                         <thead>
                         <tr>
@@ -852,6 +896,12 @@
                     </table>
                 </div>
 
+                <!-- Empty season message (hidden by default) -->
+                <div id="empty-season-msg" style="display: none; text-align: center; padding: 48px 20px; color: var(--vwd-text-secondary);">
+                    <p style="font-size: 18px; margin-bottom: 8px;">No results yet for this season.</p>
+                    <p style="font-size: 14px;">Submissions are open — <a href="#" onclick="switchTab('submit'); return false;" style="color: var(--vwd-primary); font-weight: 500;">submit your results</a> to be the first!</p>
+                </div>
+
                 <div style="text-align: center; margin-top: 20px; color: var(--vwd-text-secondary); font-size: 13px;">
                     <strong>VS</strong> = Visual Score &nbsp;|&nbsp; <strong>FS</strong> = Functional Score
                 </div>
@@ -866,9 +916,9 @@
     <div class="breadcrumb-nav">
         <div class="breadcrumb-container">
             <h1 class="breadcrumb-title">
-                <span class="breadcrumb-prefix">VisionWebDev</span> Submission Guide
+                <span class="breadcrumb-prefix">Vision2Web</span> Submission Guide
             </h1>
-            <p class="breadcrumb-subtitle">How to submit your model results to the leaderboard</p>
+            <p class="breadcrumb-subtitle">How to submit your inference results to the leaderboard</p>
         </div>
     </div>
 
@@ -877,114 +927,87 @@
             <div class="submit-section">
                 <div class="section-card">
                     <p style="font-size: 16px; color: var(--vwd-text-secondary); margin-bottom: 28px;">
-                        We welcome submissions of new model results to the VisionWebDev leaderboard. 
-                        Please follow the steps below to submit your evaluation results.
+                        We welcome submissions to the Vision2Web leaderboard.
+                        Submit your <strong>inference outputs</strong> and our team will run the official evaluation.
                     </p>
 
                     <div class="submit-step">
                         <div class="submit-step-number">1</div>
                         <div class="submit-step-content">
-                            <h3>Clone and Setup VisionWebDev</h3>
-                            <p>First, clone the VisionWebDev repository and install the required dependencies:</p>
-                            <pre class="code-block">
-git clone https://github.com/VisionWebDev/VisionWebDev.git 
-cd VisionWebDev
-pip install -e .</pre>
+                            <h3>Run Inference</h3>
+                            <p>Run your agent on Vision2Web benchmark tasks to generate website code. You can use the official evaluation pipeline locally to test your results before submitting.</p>
+                            <pre class="code-block">git clone https://github.com/Vision2Web/Vision2Web.git
+cd Vision2Web
+pip install -e .
+bash scripts/run_inference.sh</pre>
                         </div>
                     </div>
 
                     <div class="submit-step">
                         <div class="submit-step-number">2</div>
                         <div class="submit-step-content">
-                            <h3>Run Inference & Evaluation</h3>
-                            <p>Run the inference & evaluation script with your model configuration</p>
+                            <h3>Fork the Leaderboard Repository</h3>
+                            <p>
+                                Fork the <a href="https://huggingface.co/datasets/he-zh22/Vision2Web-leaderboard" target="_blank" style="color: var(--vwd-primary); font-weight: 500;">Vision2Web Leaderboard</a> dataset repository on Hugging Face.
+                            </p>
                         </div>
                     </div>
 
                     <div class="submit-step">
-
-                    <div class="submit-step-number">3</div>
+                        <div class="submit-step-number">3</div>
                         <div class="submit-step-content">
-                            <h3>Prepare Submission</h3>
-                            <p>Before submitting, organize your evaluation results using the following directory structure:</p>
+                            <h3>Organize Inference Outputs</h3>
+                            <p>Structure your submission using the required directory layout:</p>
 
-                            <pre class="code-block">
-agent/
-    model/
-        metadata.json
-        task/
-            project/
-                test_results/</pre>
+                            <pre class="code-block">&lt;agent&gt;+&lt;model&gt;/
+    submission.json
+    &lt;level&gt;/              # webpage, frontend, or website
+        &lt;task-name&gt;/      # generated code for each task</pre>
 
-                            <p style="margin-top:10px;">Requirements:</p>
-                            <ul style="color: var(--vwd-text-secondary); margin-top: 8px; padding-left: 18px;">
-                                <li><strong>test_results/</strong> must contain the full evaluation artifacts generated by the official <code>evaluate</code> script, including the complete GUI Agent execution traces and VLM Judge evaluation outputs.</li>
-                                <li>The submission should include <strong>evaluation results only</strong>. Please do <strong>not</strong> include any source code or model weights.</li>
-                                <li>Create a <code>metadata.json</code> file under <code>agent/model/</code> that summarizes the final benchmark results for leaderboard submission.</li>
-                            </ul>
+                            <p style="margin-top: 12px;">For example: <code style="background: #f0f0f0; padding: 2px 6px; border-radius: 4px;">OpenHands+GPT-4o/</code>, <code style="background: #f0f0f0; padding: 2px 6px; border-radius: 4px;">ClaudeCode+Claude-3.5-Sonnet/</code></p>
 
-                            <p style="margin-top:10px;">Required <code>metadata.json</code> format:</p>
-
-                            <pre class="code-block">
-{
+                            <p style="margin-top:12px;">Required <code>submission.json</code>:</p>
+                            <pre class="code-block">{
   "name": "model-name + agent-framework",
   "org": "organization-name",
   "date": "YYYY-MM-DD",
-  "webpage": {
-    "desktop": score,
-    "tablet": score,
-    "mobile": score,
-    "avg": average-score
-  },
-  "frontend": {
-    "vs": visual-score,
-    "fs": functional-score,
-    "avg": average-score
-  },
-  "website": {
-    "vs": visual-score,
-    "fs": functional-score,
-    "avg": average-score
-  },
-  "overall": overall-score
-}
-</pre>
-<p style="color: var(--vwd-text-secondary); margin-top: 6px;">
-  All scores should be scaled to <strong>0–100</strong> and rounded to <strong>one decimal place</strong>.
-</p>
+  "season": "S1-2026"
+}</pre>
+
+                            <p style="margin-top:12px; color: #dc2626; font-weight: 500;">Do not include:</p>
+                            <ul style="color: var(--vwd-text-secondary); margin-top: 8px; padding-left: 18px;">
+                                <li><code>node_modules/</code>, <code>__pycache__/</code>, <code>.venv/</code>, or any dependency directories</li>
+                                <li>Lock files (<code>package-lock.json</code>, <code>yarn.lock</code>, <code>pnpm-lock.yaml</code>)</li>
+                                <li>Build artifacts (<code>dist/</code>, <code>.next/</code>, <code>build/</code>)</li>
+                                <li>Model weights or external datasets</li>
+                            </ul>
+                            <p style="color: var(--vwd-text-secondary); margin-top: 8px; font-size: 13px;">
+                                Submissions containing excessive dependency files will be rejected.
+                            </p>
                         </div>
                     </div>
 
                     <div class="submit-step">
                         <div class="submit-step-number">4</div>
                         <div class="submit-step-content">
-                            <h3>Submit via Hugging Face Pull Request</h3>
-
-                            <p>
-                                Fork the VisionWebDev leaderboard repository on Hugging Face and submit your results via a Pull Request.
-                            </p>
-
-                            <ul style="color: var(--vwd-text-secondary); margin-top: 8px; padding-left: 18px;">
-                                <li>Fork the dataset repository on Hugging Face.</li>
-                                <li>Add your submission under the required directory structure (<code>agent/model/...</code>).</li>
-                                <li>Ensure the <code>metadata.json</code> file correctly summarizes your evaluation results.</li>
-                                <li>Submit a Pull Request to the main dataset repository.</li>
-                            </ul>
+                            <h3>Open a Pull Request</h3>
+                            <p>Submit a Pull Request to the leaderboard repository with your inference outputs.</p>
                         </div>
                     </div>
+
                     <div class="submit-step">
                         <div class="submit-step-number">5</div>
                         <div class="submit-step-content">
-                            <h3>Review Process</h3>
-                            <p>Our team will review your submission for correctness and consistency. Once approved, your results will appear on the public leaderboard.</p>
+                            <h3>Evaluation & Results</h3>
+                            <p>Our team will verify your submission format, run the official evaluation pipeline using the current season's VLM Judge and GUI Agent, and publish the results on the leaderboard.</p>
                         </div>
                     </div>
 
                     <div class="info-box">
                         <strong>Questions?</strong>
                         <p style="color: var(--vwd-text-secondary); margin-top: 8px;">
-                            If you have any question about the evaluation and submission process, please open an issue on our 
-                            <a href="https://github.com/VisionWebDev/VisionWebDev/issues" target="_blank" style="color: var(--vwd-primary); font-weight: 500;">GitHub Issues page</a>.
+                            If you have any question about the submission process, please open an issue on our
+                            <a href="https://github.com/Vision2Web/Vision2Web/issues" target="_blank" style="color: var(--vwd-primary); font-weight: 500;">GitHub Issues page</a>.
                         </p>
                     </div>
                 </div>
@@ -999,7 +1022,7 @@ agent/
     <div class="breadcrumb-nav">
         <div class="breadcrumb-container">
             <h1 class="breadcrumb-title">
-                <span class="breadcrumb-prefix">VisionWebDev</span> Citation
+                <span class="breadcrumb-prefix">Vision2Web</span> Citation
             </h1>
             <p class="breadcrumb-subtitle">How to cite our work in your research</p>
         </div>
@@ -1010,12 +1033,12 @@ agent/
             <div class="submit-section">
                 <div class="section-card">
                     <p style="font-size: 16px; color: var(--vwd-text-secondary); margin-bottom: 28px;">
-                        If you use VisionWebDev in your research, please cite our paper:
+                        If you use Vision2Web in your research, please cite our paper:
                     </p>
 
                     <div class="citation-box">
-                        <pre><code>@article{he2026visionwebdev,
-  title={VisionWebDev: A Hierarchical Benchmark for Visual Website Development with Agent Verification},
+                        <pre><code>@article{he2026vision2web,
+  title={Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification},
   author={He, Zehai and Hong, Wenyi and Yang, Zhen and Pan, Ziyang and Liu, Mingdao and Gu, Xiaotao and Tang, Jie},
   journal={arXiv preprint},
   year={2026}
@@ -1025,7 +1048,7 @@ agent/
                     <div style="margin-top: 36px;">
                         <h3 style="font-size: 18px; margin-bottom: 12px; color: var(--vwd-text-primary);">License</h3>
                         <p style="color: var(--vwd-text-secondary);">
-                            VisionWebDev is released under the 
+                            Vision2Web is released under the 
                             <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color: var(--vwd-primary); font-weight: 500;">CC BY-SA 4.0</a> license.
                         </p>
                     </div>
@@ -1060,6 +1083,8 @@ document.querySelectorAll('.nav-tab').forEach(tab => {
 });
 
 // Leaderboard Data
+let seasonsData = null;
+let currentSeason = null;
 let leaderboardData = null;
 let currentSort = {column: 'overall', direction: 'desc'};
 const defaultSort = {column: 'overall', direction: 'desc'};
@@ -1068,12 +1093,62 @@ async function loadLeaderboardData() {
     try {
         const response = await fetch('./data/leaderboard.json');
         const data = await response.json();
-        leaderboardData = data.models;
-        document.getElementById('last-updated-date').textContent = data.last_updated;
-        renderTable();
+        seasonsData = data.seasons;
+
+        // Build season tabs and find default season (latest with data)
+        const seasonIds = Object.keys(seasonsData);
+        let defaultSeason = seasonIds[0];
+        for (const id of seasonIds) {
+            if (seasonsData[id].models.length > 0) {
+                defaultSeason = id;
+                break;
+            }
+        }
+
+        renderSeasonTabs(seasonIds, defaultSeason);
+        switchSeason(defaultSeason);
     } catch (error) {
         console.error('Error loading leaderboard data:', error);
         document.getElementById('results-body').innerHTML = '<tr><td colspan="15" style="text-align:center; padding: 20px;">Error loading data. Please try again later.</td></tr>';
+    }
+}
+
+function renderSeasonTabs(seasonIds, activeSeason) {
+    const container = document.getElementById('season-tabs');
+    container.innerHTML = '';
+    seasonIds.forEach(id => {
+        const btn = document.createElement('button');
+        btn.textContent = id;
+        btn.className = 'season-tab-btn' + (id === activeSeason ? ' active' : '');
+        btn.onclick = () => switchSeason(id);
+        container.appendChild(btn);
+    });
+}
+
+function switchSeason(seasonId) {
+    currentSeason = seasonId;
+    const season = seasonsData[seasonId];
+    leaderboardData = season.models;
+
+    // Update season tab active state
+    document.querySelectorAll('.season-tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent === seasonId);
+    });
+
+    // Update eval info banner
+    document.getElementById('eval-period').textContent = season.period;
+    document.getElementById('eval-vlm-judge').textContent = season.vlm_judge;
+    document.getElementById('eval-gui-agent').textContent = season.gui_agent;
+    document.getElementById('last-updated-date').textContent = season.last_updated || '—';
+
+    // Show/hide table vs empty message
+    const hasData = leaderboardData.length > 0;
+    document.getElementById('leaderboard-table-wrapper').style.display = hasData ? '' : 'none';
+    document.getElementById('empty-season-msg').style.display = hasData ? 'none' : '';
+
+    currentSort = {...defaultSort};
+    if (hasData) {
+        renderTable();
     }
 }
 
