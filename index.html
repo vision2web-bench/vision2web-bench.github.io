@@ -684,15 +684,15 @@
         </div>
         
         <div class="nav-external-links">
-            <a href="#" class="nav-btn nav-btn-outline">
+            <a href="https://arxiv.org/abs/2603.26648" class="nav-btn nav-btn-outline">
                 <span class="icon"><i class="ai ai-arxiv"></i></span>
                 <span>Paper</span>
             </a>
-            <a href="#" class="nav-btn nav-btn-outline"> 
+            <a href="https://huggingface.co/datasets/zai-org/Vision2Web" class="nav-btn nav-btn-outline">
                 <span class="icon"><i class="fas fa-database"></i></span>
-                <span>Dataset</span> 
+                <span>Dataset</span>
             </a>
-            <a href="https://github.com/Vision2Web/Vision2Web" target="_blank" class="nav-btn nav-btn-primary">
+            <a href="https://github.com/zai-org/Vision2Web" target="_blank" class="nav-btn nav-btn-primary">
                 <span class="icon"><i class="fab fa-github"></i></span>
                 <span>Run Vision2Web</span>
             </a>
@@ -936,7 +936,7 @@
                         <div class="submit-step-content">
                             <h3>Run Inference</h3>
                             <p>Run your agent on Vision2Web benchmark tasks to generate website code. You can use the official evaluation pipeline locally to test your results before submitting.</p>
-                            <pre class="code-block">git clone https://github.com/Vision2Web/Vision2Web.git
+                            <pre class="code-block">git clone https://github.com/zai-org/Vision2Web.git
 cd Vision2Web
 pip install -e .
 bash scripts/run_inference.sh</pre>
@@ -948,7 +948,7 @@ bash scripts/run_inference.sh</pre>
                         <div class="submit-step-content">
                             <h3>Fork the Leaderboard Repository</h3>
                             <p>
-                                Fork the <a href="https://huggingface.co/datasets/he-zh22/Vision2Web-leaderboard" target="_blank" style="color: var(--vwd-primary); font-weight: 500;">Vision2Web Leaderboard</a> dataset repository on Hugging Face.
+                                Fork the <a href="https://huggingface.co/datasets/zai-org/Vision2Web-Leaderboard" target="_blank" style="color: var(--vwd-primary); font-weight: 500;">Vision2Web Leaderboard</a> dataset repository on Hugging Face.
                             </p>
                         </div>
                     </div>
@@ -1007,7 +1007,7 @@ bash scripts/run_inference.sh</pre>
                         <strong>Questions?</strong>
                         <p style="color: var(--vwd-text-secondary); margin-top: 8px;">
                             If you have any question about the submission process, please open an issue on our
-                            <a href="https://github.com/Vision2Web/Vision2Web/issues" target="_blank" style="color: var(--vwd-primary); font-weight: 500;">GitHub Issues page</a>.
+                            <a href="https://github.com/zai-org/Vision2Web/issues" target="_blank" style="color: var(--vwd-primary); font-weight: 500;">GitHub Issues page</a>.
                         </p>
                     </div>
                 </div>
@@ -1037,11 +1037,14 @@ bash scripts/run_inference.sh</pre>
                     </p>
 
                     <div class="citation-box">
-                        <pre><code>@article{he2026vision2web,
-  title={Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification},
-  author={He, Zehai and Hong, Wenyi and Yang, Zhen and Pan, Ziyang and Liu, Mingdao and Gu, Xiaotao and Tang, Jie},
-  journal={arXiv preprint},
-  year={2026}
+                        <pre><code>@misc{he2026vision2webhierarchicalbenchmarkvisual,
+      title={Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification},
+      author={Zehai He and Wenyi Hong and Zhen Yang and Ziyang Pan and Mingdao Liu and Xiaotao Gu and Jie Tang},
+      year={2026},
+      eprint={2603.26648},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2603.26648},
 }</code></pre>
                     </div>
 
