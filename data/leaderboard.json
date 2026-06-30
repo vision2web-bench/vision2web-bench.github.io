@@ -1,5 +1,97 @@
 {
   "seasons": {
+    "S3-2026": {
+      "period": "Jul – Sep 2026",
+      "vlm_judge": "Gemini-3.5-flash",
+      "gui_agent": "GLM-5V-Turbo (Claude Code)",
+      "last_updated": "2026-06-30",
+      "models": [
+        {
+          "rank": 1,
+          "name": "GPT-5.5 + Codex",
+          "org": "OpenAI",
+          "params": "-",
+          "date": "2026-06-30",
+          "url": "https://openai.com",
+          "l1": {"desktop": 83.4, "tablet": 82.4, "mobile": 81.5, "avg": 82.4},
+          "l2": {"vs": 62.2, "fs": 82.8, "avg": 72.5},
+          "l3": {"vs": 57.0, "fs": 80.5, "avg": 68.7},
+          "overall": 74.6
+        },
+        {
+          "rank": 2,
+          "name": "Claude-Opus-4.8 + Claude Code",
+          "org": "Anthropic",
+          "params": "-",
+          "date": "2026-06-30",
+          "url": "https://www.anthropic.com/claude",
+          "l1": {"desktop": 75.0, "tablet": 68.0, "mobile": 65.9, "avg": 69.6},
+          "l2": {"vs": 60.3, "fs": 89.3, "avg": 74.8},
+          "l3": {"vs": 57.0, "fs": 82.5, "avg": 69.8},
+          "overall": 71.4
+        },
+        {
+          "rank": 3,
+          "name": "Claude-Opus-4.7 + Claude Code",
+          "org": "Anthropic",
+          "params": "-",
+          "date": "2026-06-30",
+          "url": "https://www.anthropic.com/claude",
+          "l1": {"desktop": 68.4, "tablet": 63.9, "mobile": 63.1, "avg": 65.1},
+          "l2": {"vs": 56.5, "fs": 81.0, "avg": 68.7},
+          "l3": {"vs": 49.4, "fs": 78.3, "avg": 63.9},
+          "overall": 65.9
+        },
+        {
+          "rank": 4,
+          "name": "MiniMax-M3 + Claude Code",
+          "org": "MiniMax",
+          "params": "428B",
+          "date": "2026-06-30",
+          "url": "https://www.minimax.io",
+          "l1": {"desktop": 58.8, "tablet": 51.6, "mobile": 51.8, "avg": 54.1},
+          "l2": {"vs": 47.9, "fs": 83.4, "avg": 65.7},
+          "l3": {"vs": 42.4, "fs": 72.4, "avg": 57.4},
+          "overall": 59.0
+        },
+        {
+          "rank": 5,
+          "name": "Claude-Sonnet-4.6 + Claude Code",
+          "org": "Anthropic",
+          "params": "-",
+          "date": "2026-06-30",
+          "url": "https://www.anthropic.com/claude",
+          "l1": {"desktop": 57.1, "tablet": 52.1, "mobile": 50.8, "avg": 53.3},
+          "l2": {"vs": 46.4, "fs": 84.0, "avg": 65.2},
+          "l3": {"vs": 42.2, "fs": 73.8, "avg": 58.0},
+          "overall": 58.9
+        },
+        {
+          "rank": 6,
+          "name": "Claude-Opus-4.6 + Claude Code",
+          "org": "Anthropic",
+          "params": "-",
+          "date": "2026-06-30",
+          "url": "https://www.anthropic.com/claude",
+          "l1": {"desktop": 60.4, "tablet": 54.7, "mobile": 54.6, "avg": 56.6},
+          "l2": {"vs": 44.5, "fs": 75.2, "avg": 59.8},
+          "l3": {"vs": 41.9, "fs": 71.1, "avg": 56.5},
+          "overall": 57.6
+        },
+        {
+          "rank": 7,
+          "name": "Kimi-K2.6 + Claude Code",
+          "org": "Moonshot AI",
+          "params": "1T",
+          "date": "2026-06-30",
+          "url": "https://kimi.ai",
+          "l1": {"desktop": 57.3, "tablet": 52.7, "mobile": 50.8, "avg": 53.6},
+          "l2": {"vs": 40.1, "fs": 81.2, "avg": 60.6},
+          "l3": {"vs": 36.2, "fs": 64.2, "avg": 50.2},
+          "overall": 54.8
+        }
+      ]
+    },
     "S2-2026": {
       "period": "Apr – Jun 2026",
       "vlm_judge": "Gemini-3.1-pro-preview",
