@@ -1,5 +1,133 @@
 {
   "seasons": {
+    "S4-2026": {
+      "period": "Oct – Dec 2026",
+      "vlm_judge": "Gemini-3.5-flash",
+      "gui_agent": "GLM-5V-Turbo (Claude Code)",
+      "last_updated": "2026-10-01",
+      "models": [
+        {
+          "rank": 1,
+          "name": "Claude-Fable-5 + Claude Code 2.1.221",
+          "org": "Anthropic",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://www.anthropic.com/claude",
+          "l1": {"desktop": 89.6, "tablet": 86.7, "mobile": 86.1, "avg": 87.4},
+          "l2": {"vs": 78.1, "fs": 88.3, "avg": 83.2},
+          "l3": {"vs": 69.0, "fs": 83.6, "avg": 76.3},
+          "overall": 82.3
+        },
+        {
+          "rank": 2,
+          "name": "Claude-Opus-5 + Claude Code 2.1.221",
+          "org": "Anthropic",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://www.anthropic.com/claude",
+          "l1": {"desktop": 91.2, "tablet": 89.5, "mobile": 89.8, "avg": 90.1},
+          "l2": {"vs": 74.4, "fs": 88.7, "avg": 81.5},
+          "l3": {"vs": 68.0, "fs": 70.0, "avg": 69.0},
+          "overall": 80.2
+        },
+        {
+          "rank": 3,
+          "name": "Kimi-K3 + Claude Code 2.1.221",
+          "org": "Moonshot AI",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://kimi.ai",
+          "l1": {"desktop": 85.1, "tablet": 80.4, "mobile": 78.8, "avg": 81.4},
+          "l2": {"vs": 71.1, "fs": 92.1, "avg": 81.6},
+          "l3": {"vs": 65.2, "fs": 82.8, "avg": 74.0},
+          "overall": 79.0
+        },
+        {
+          "rank": 4,
+          "name": "GLM-5.3-Flash + Claude Code 2.1.221",
+          "org": "Z.ai",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://z.ai",
+          "l1": {"desktop": 89.6, "tablet": 85.1, "mobile": 85.4, "avg": 86.7},
+          "l2": {"vs": 68.5, "fs": 89.1, "avg": 78.8},
+          "l3": {"vs": 58.7, "fs": 77.4, "avg": 68.0},
+          "overall": 77.8
+        },
+        {
+          "rank": 5,
+          "name": "Gemini-3.7-Flash + Gemini CLI",
+          "org": "Google",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://ai.google.dev/gemini",
+          "l1": {"desktop": 86.4, "tablet": 81.6, "mobile": 80.3, "avg": 82.8},
+          "l2": {"vs": 63.1, "fs": 86.7, "avg": 74.9},
+          "l3": {"vs": 57.0, "fs": 86.6, "avg": 71.8},
+          "overall": 76.5
+        },
+        {
+          "rank": 6,
+          "name": "Claude-Opus-4.8 + Claude Code 2.1.221",
+          "org": "Anthropic",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://www.anthropic.com/claude",
+          "l1": {"desktop": 82.0, "tablet": 74.1, "mobile": 70.9, "avg": 75.7},
+          "l2": {"vs": 67.9, "fs": 91.1, "avg": 79.5},
+          "l3": {"vs": 60.6, "fs": 85.7, "avg": 73.1},
+          "overall": 76.1
+        },
+        {
+          "rank": 7,
+          "name": "GPT-5.6-Sol-Vibe + Codex",
+          "org": "OpenAI",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://openai.com",
+          "l1": {"desktop": 87.9, "tablet": 84.4, "mobile": 85.0, "avg": 85.7},
+          "l2": {"vs": 64.8, "fs": 83.2, "avg": 74.0},
+          "l3": {"vs": 49.1, "fs": 72.1, "avg": 60.6},
+          "overall": 73.5
+        },
+        {
+          "rank": 8,
+          "name": "DeepSeek-V4-Flash-Vision-Exp + Claude Code 2.1.221",
+          "org": "DeepSeek",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://www.deepseek.com",
+          "l1": {"desktop": 74.8, "tablet": 69.5, "mobile": 67.3, "avg": 70.5},
+          "l2": {"vs": 53.2, "fs": 86.9, "avg": 70.0},
+          "l3": {"vs": 45.8, "fs": 78.4, "avg": 62.1},
+          "overall": 67.6
+        },
+        {
+          "rank": 9,
+          "name": "GPT-5.6-Terra + Codex",
+          "org": "OpenAI",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://openai.com",
+          "l1": {"desktop": 80.2, "tablet": 75.4, "mobile": 76.1, "avg": 77.3},
+          "l2": {"vs": 53.1, "fs": 85.3, "avg": 69.2},
+          "l3": {"vs": 42.0, "fs": 70.3, "avg": 56.2},
+          "overall": 67.5
+        },
+        {
+          "rank": 10,
+          "name": "GPT-5.6-Luna + Codex",
+          "org": "OpenAI",
+          "params": "-",
+          "date": "2026-08-28",
+          "url": "https://openai.com",
+          "l1": {"desktop": 79.0, "tablet": 75.3, "mobile": 73.4, "avg": 75.9},
+          "l2": {"vs": 52.7, "fs": 77.2, "avg": 64.9},
+          "l3": {"vs": 40.9, "fs": 64.3, "avg": 52.6},
+          "overall": 64.5
+        }
+      ]
+    },
     "S3-2026": {
       "period": "Jul – Sep 2026",
       "vlm_judge": "Gemini-3.5-flash",
