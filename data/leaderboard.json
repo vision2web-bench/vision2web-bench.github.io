@@ -4,11 +4,12 @@
       "period": "Oct – Dec 2026",
       "vlm_judge": "Gemini-3.5-flash",
       "gui_agent": "GLM-5V-Turbo (Claude Code)",
+      "coding_agent_version": "Claude Code 2.1.221",
       "last_updated": "2026-10-01",
       "models": [
         {
           "rank": 1,
-          "name": "Claude-Fable-5 + Claude Code 2.1.221",
+          "name": "Claude-Fable-5 + Claude Code",
           "org": "Anthropic",
           "params": "-",
           "date": "2026-08-28",
@@ -20,7 +21,7 @@
         },
         {
           "rank": 2,
-          "name": "Claude-Opus-5 + Claude Code 2.1.221",
+          "name": "Claude-Opus-5 + Claude Code",
           "org": "Anthropic",
           "params": "-",
           "date": "2026-08-28",
@@ -32,7 +33,7 @@
         },
         {
           "rank": 3,
-          "name": "Kimi-K3 + Claude Code 2.1.221",
+          "name": "Kimi-K3 + Claude Code",
           "org": "Moonshot AI",
           "params": "-",
           "date": "2026-08-28",
@@ -44,7 +45,7 @@
         },
         {
           "rank": 4,
-          "name": "GLM-5.3-Flash + Claude Code 2.1.221",
+          "name": "GLM-5.3-Flash + Claude Code",
           "org": "Z.ai",
           "params": "-",
           "date": "2026-08-28",
@@ -68,7 +69,7 @@
         },
         {
           "rank": 6,
-          "name": "Claude-Opus-4.8 + Claude Code 2.1.221",
+          "name": "Claude-Opus-4.8 + Claude Code",
           "org": "Anthropic",
           "params": "-",
           "date": "2026-08-28",
@@ -80,7 +81,7 @@
         },
         {
           "rank": 7,
-          "name": "GPT-5.6-Sol-Vibe + Codex",
+          "name": "GPT-5.6-Sol + Codex",
           "org": "OpenAI",
           "params": "-",
           "date": "2026-08-28",
@@ -92,7 +93,7 @@
         },
         {
           "rank": 8,
-          "name": "DeepSeek-V4-Flash-Vision-Exp + Claude Code 2.1.221",
+          "name": "DeepSeek-V4-Flash-Vision-Exp + Claude Code",
           "org": "DeepSeek",
           "params": "-",
           "date": "2026-08-28",

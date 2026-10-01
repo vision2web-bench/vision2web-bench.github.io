@@ -847,6 +847,9 @@
                     <span style="color: var(--vwd-text-secondary);">
                         <strong style="color: var(--vwd-text-primary);">GUI Agent:</strong> <span id="eval-gui-agent"></span>
                     </span>
+                    <span id="eval-agent-version-wrap" style="color: var(--vwd-text-secondary);">
+                        <strong style="color: var(--vwd-text-primary);">Coding Agent:</strong> <span id="eval-agent-version"></span>
+                    </span>
                 </div>
 
                 <div class="leaderboard-header">
@@ -1143,6 +1146,14 @@ function switchSeason(seasonId) {
     document.getElementById('eval-vlm-judge').textContent = season.vlm_judge;
     document.getElementById('eval-gui-agent').textContent = season.gui_agent;
     document.getElementById('last-updated-date').textContent = season.last_updated || '—';
+
+    const agentVersionWrap = document.getElementById('eval-agent-version-wrap');
+    if (season.coding_agent_version) {
+        document.getElementById('eval-agent-version').textContent = season.coding_agent_version;
+        agentVersionWrap.style.display = '';
+    } else {
+        agentVersionWrap.style.display = 'none';
+    }
 
     // Show/hide table vs empty message
     const hasData = leaderboardData.length > 0;
